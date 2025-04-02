@@ -23,11 +23,7 @@ export default function RootLayout({ children }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link
-          rel="shortcut icon"
-          href="/favicon.ico"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link
           rel="apple-touch-icon"
@@ -45,11 +41,7 @@ export default function RootLayout({ children }) {
           href="/apple-touch-icon-76x76.png"
         />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link
-          rel="icon"
-          href="/apple-touch-icon.png"
-          type="image/x-icon"
-        />
+        <link rel="icon" href="/apple-touch-icon.png" type="image/x-icon" />
       </head>
       <body>{children}</body>
     </html>

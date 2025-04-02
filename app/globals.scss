@@ -16,7 +16,8 @@ $white: #fff; // Change to your desired font color
 );
 
 @use "~bulma/sass/components/navbar" with (
-  $navbar-item-img-max-height: 5rem
+  $navbar-item-img-max-height: 5rem,
+  $navbar-burger-color: #fff
 );
 
 // Override Sass variables from the /form folder
