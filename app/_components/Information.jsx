@@ -1,8 +1,6 @@
-// import { LunchDining } from '@mui/icons-material';
-
 const Information = () => {
   return (
-    <section className="section is-medium has-background-white">
+    <section className="section is-small has-background-white">
       <div className="columns is-vcentered">
         <div className="column">
           <figure className="image">
@@ -20,10 +18,7 @@ const Information = () => {
           </p>
           <div className="level">
             <div className="level-item has-text-centered">
-              <div>
-                {/* <LunchDining className="is-6" /> */}
-                <p>Home</p>
-              </div>
+              <div>{/* fastfood icons goes here */}</div>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import { ShoppingBagIcon } from "@heroicons/react/24/solid";
 
 const Navigation = () => {
   return (
-    <nav className="navbar is-spaced is-transparent">
+    <nav className="navbar is-spaced is-transparent is-family-secondary">
       <div className="navbar-brand">
         <a className="navbar-item">
           <img src="/images/testo-logo.png" alt="Testo Logo" />
