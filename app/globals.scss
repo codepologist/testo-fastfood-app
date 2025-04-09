@@ -5,14 +5,19 @@ $brown: #757763;
 $beige-light: #d0d1cd;
 $beige-lighter: #eff0eb;
 
+// Define the custom font for button text
+$custom-family-primary: "Roboto";
+$custom-family-secondary: "Oswald";
+$custom-family-monospace: "Lilita One";
+
 // Override Bulma's default text color
-$white: #fff; // Change to your desired font color
 
 // Override global Sass variables from the /utilities folder
 @use "~bulma/sass/utilities" with (
-  $family-primary: '"Roboto", sans-serif',
+  $family-primary: "Roboto",
   $family-secondary: "Oswald",
   $family-monospace: "Lilita One"
+  
 );
 
 @use "~bulma/sass/components/navbar" with (
@@ -29,13 +34,15 @@ $white: #fff; // Change to your desired font color
 @forward "~bulma/sass";
 
 // Import the Google Font
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:wght@300,400,500,700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&amp;display=swap");
 
 body {
+  font-family: $custom-family-primary, "Helvetica Neue", Helvetica, Arial,
+    sans-serif !important;
   color: #283034 !important;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 .hero {
@@ -67,8 +74,20 @@ body {
   color: #757575;
 }
 
+.red-color {
+  color: #e3000e;
+}
+
 h2.h2-sm {
   font-size: 3.25rem;
+}
+
+h2.h2-xl {
+  font-size: 3.75rem;
+  font-family: $custom-family-secondary;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: 0;
 }
 
 p.p-md {
@@ -107,4 +126,59 @@ footer {
   font-size: 7.25rem;
   line-height: 1.1;
   letter-spacing: 3px;
+}
+
+#promo-2-1 {
+  background-image: url("/images/pb-2-1.jpg"); /* Adjust for each promo box */
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+
+#promo-2-2 {
+  background-image: url("/images/pb-2-2.jpg"); /* Adjust for each promo box */
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+
+.content h4.title.is-4 {
+  font-family: $custom-family-secondary;
+  font-size: 2.25rem;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+
+.content h4.title.is-2 {
+  font-family: $custom-family-secondary;
+  font-size: 2.375rem;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+button,
+.btn {
+  font-family: $custom-family-secondary; // Apply the font
+}
+
+.btn {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 13px 32px;
+  border: 1px solid transparent;
+  transition: all 400ms ease-in-out;
+}
+
+.btn-red {
+  background-color: #e3000e;
+  border-color: #e3000e;
+}
+
+p.menu-section-title {
+  font-size: 1.25rem !important;
+  color: #888 !important;
+  padding: 0 18% !important;
+  margin: 12px 0 0 !important;
 }
