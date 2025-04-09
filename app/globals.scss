@@ -17,7 +17,6 @@ $custom-family-monospace: "Lilita One";
   $family-primary: "Roboto",
   $family-secondary: "Oswald",
   $family-monospace: "Lilita One"
-  
 );
 
 @use "~bulma/sass/components/navbar" with (
@@ -70,6 +69,14 @@ body {
   color: #642f21;
 }
 
+.button {
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #642f21;
+  }
+}
+
 .grey-color {
   color: #757575;
 }
@@ -80,6 +87,13 @@ body {
 
 h2.h2-sm {
   font-size: 3.25rem;
+}
+
+h5.h5-sm {
+  font-size: 1.375rem;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: 0;
 }
 
 h2.h2-xl {
