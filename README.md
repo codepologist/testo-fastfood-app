@@ -37,5 +37,5 @@ Make sure you have the following installed on your system:
 
    ```bash
    git clone https://github.com/codepologist/testo-fastfood-app.git
-   cd testo
+   cd testo-fastfood-app
    ```
