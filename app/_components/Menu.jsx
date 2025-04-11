@@ -1,6 +1,7 @@
 import { HeartIcon } from "@heroicons/react/24/outline";
 import { ShoppingBagIcon } from "@heroicons/react/24/solid";
 
+
 const Menu = () => {
   return (
     <section className="section is-small has-background-white">
@@ -15,7 +16,8 @@ const Menu = () => {
       </div>
       <div className="container">
         {/* First Column Row */}
-        <div className="columns is-desktop">
+        <div className="columns">
+          {/* First Menu Item: Crispy Chicken */}
           <div className="column is-one-quarter">
             <div
               className="card has-background-white"
@@ -44,8 +46,9 @@ const Menu = () => {
                   Chicken breast, chilli sauce, tomatoes, pickles, coleslaw
                 </div>
                 <div className="content">
-                  <div className="columns is-vcentered">
+                  <div className="columns is-vcentered is-desktop">
                     <div className="column">
+                      {/* Price Button */}
                       <button
                         className="button is-clipped btn-color is-uppercase is-family-secondary yellow-color"
                         style={{
@@ -61,6 +64,7 @@ const Menu = () => {
                       </button>
                     </div>
                     <div className="column">
+                      {/* Add to Cart Button */}
                       <button
                         className="button is-small is-family-secondary"
                         style={{
@@ -84,6 +88,8 @@ const Menu = () => {
               </div>
             </div>
           </div>
+
+          {/* Second Menu Item: Ultra Bacon */}
           <div className="column is-one-quarter">
             <div
               className="card has-background-white"
@@ -112,8 +118,9 @@ const Menu = () => {
                   House beef patty, cheddar cheese, bacon, onion, mustard
                 </div>
                 <div className="content">
-                  <div className="columns is-vcentered">
+                  <div className="columns is-vcentered is-desktop">
                     <div className="column">
+                      {/* Price Button */}
                       <button
                         className="button is-clipped btn-color is-uppercase is-family-secondary yellow-color"
                         style={{
@@ -129,6 +136,7 @@ const Menu = () => {
                       </button>
                     </div>
                     <div className="column">
+                      {/* Add to Cart Button */}
                       <button
                         className="button is-small is-family-secondary"
                         style={{
@@ -152,6 +160,8 @@ const Menu = () => {
               </div>
             </div>
           </div>
+
+          {/* Third Menu Item: Black Sheep */}
           <div className="column is-one-quarter">
             <div
               className="card has-background-white"
@@ -180,8 +190,9 @@ const Menu = () => {
                   American cheese, tomato relish, avocado, lettuce, red onion
                 </div>
                 <div className="content">
-                  <div className="columns is-vcentered">
+                  <div className="columns is-vcentered is-desktop">
                     <div className="column">
+                      {/* Price Button */}
                       <button
                         className="button is-clipped btn-color is-uppercase is-family-secondary yellow-color"
                         style={{
@@ -197,6 +208,7 @@ const Menu = () => {
                       </button>
                     </div>
                     <div className="column">
+                      {/* Add to Cart Button */}
                       <button
                         className="button is-small is-family-secondary"
                         style={{
@@ -220,6 +232,8 @@ const Menu = () => {
               </div>
             </div>
           </div>
+
+          {/* Fourth Menu Item: Double Burger */}
           <div className="column is-one-quarter">
             <div
               className="card has-background-white"
@@ -248,8 +262,9 @@ const Menu = () => {
                   2 beef patties, cheddar cheese, mustard, pickles, tomatoes
                 </div>
                 <div className="content">
-                  <div className="columns is-vcentered">
+                  <div className="columns is-vcentered is-desktop">
                     <div className="column">
+                      {/* Price Button */}
                       <button
                         className="button is-clipped btn-color is-uppercase is-family-secondary yellow-color"
                         style={{
@@ -265,6 +280,7 @@ const Menu = () => {
                       </button>
                     </div>
                     <div className="column">
+                      {/* Add to Cart Button */}
                       <button
                         className="button is-small is-family-secondary"
                         style={{
@@ -289,8 +305,8 @@ const Menu = () => {
             </div>
           </div>
         </div>
-        {/* Second Column Row */}
-        <div className="columns is-desktop">
+        {/* End of First Column Row */}
+        <div className="columns">
           <div className="column is-one-quarter">
             <div
               className="card has-background-white"
@@ -319,7 +335,7 @@ const Menu = () => {
                   Turkey, cheddar cheese, onion, lettuce, tomatoes, pickles
                 </div>
                 <div className="content">
-                  <div className="columns is-vcentered">
+                  <div className="columns is-vcentered is-desktop">
                     <div className="column">
                       <button
                         className="button is-clipped btn-color is-uppercase is-family-secondary yellow-color"
@@ -387,7 +403,7 @@ const Menu = () => {
                   Beef patty, cheddar cheese, onion, lettuce, tomatoes, pickles
                 </div>
                 <div className="content">
-                  <div className="columns is-vcentered">
+                  <div className="columns is-vcentered is-desktop">
                     <div className="column">
                       <button
                         className="button is-clipped btn-color is-uppercase is-family-secondary yellow-color"
@@ -455,7 +471,7 @@ const Menu = () => {
                   Beef, cheddar cheese, ketchup, mustard, pickles, onion
                 </div>
                 <div className="content">
-                  <div className="columns is-vcentered">
+                  <div className="columns is-vcentered is-desktop">
                     <div className="column">
                       <button
                         className="button is-clipped btn-color is-uppercase is-family-secondary yellow-color"
@@ -523,7 +539,7 @@ const Menu = () => {
                   Mushroom patty, vegan cheese, lettuce, tomatoes, avocado
                 </div>
                 <div className="content">
-                  <div className="columns is-vcentered">
+                  <div className="columns is-vcentered is-desktop">
                     <div className="column">
                       <button
                         className="button is-clipped btn-color is-uppercase is-family-secondary yellow-color"
