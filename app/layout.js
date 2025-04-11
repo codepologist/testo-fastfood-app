@@ -17,7 +17,6 @@ export const metadata = {
   authors: [{ name: "O'Neal Ombu" }],
   applicationName: "Testo App",
   generator: "Next.js",
-  viewport: "width=device-width, initial-scale=1.0",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -28,6 +27,11 @@ export const metadata = {
       { url: "/apple-touch-icon-76x76.png", sizes: "76x76" },
     ],
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: "1",
 };
 
 export default function RootLayout({ children }) {
